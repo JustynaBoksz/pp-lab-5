@@ -41,7 +41,7 @@ public class Main {
             
             for (Person eachPerson : people) {
                 int agePlusB = MathUtils.add(eachPerson.getAge(), constantB);
-                messenger.sendMessage(eachPerson.getName() + " age plus " + constantB + " is: " + agePlusB);
+                messenger.sendMessage(eachPerson.getName() + " wiek + " + constantB + " to: " + agePlusB);
             }
         } catch (InvalidAgeException e) {
             System.out.println("Błąd: " + e.getMessage());
